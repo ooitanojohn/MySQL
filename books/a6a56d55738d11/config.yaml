@@ -4,6 +4,3 @@ topics: ["MySQL"]
 published: false
 price: 0
 chapters:
-  - start
-  - workbench
-  - shell
