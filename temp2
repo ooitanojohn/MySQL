@@ -1,0 +1,126 @@
+5544 2023-04-26 17:24:57.618 debug3: fd 5 is not O_NONBLOCK
+5544 2023-04-26 17:24:57.618 debug3: spawning "C:\\Windows\\System32\\OpenSSH\\sshd.exe" -R as subprocess
+5544 2023-04-26 17:24:57.626 debug3: send_rexec_state: entering fd = 8 config len 664
+5544 2023-04-26 17:24:57.626 debug3: ssh_msg_send: type 0
+5544 2023-04-26 17:24:57.627 debug3: send_rexec_state: done
+14288 2023-04-26 17:24:57.644 debug1: inetd sockets after dupping: 4, 4
+14288 2023-04-26 17:24:57.644 Connection from 127.0.0.1 port 63750 on 127.0.0.1 port 22
+14288 2023-04-26 17:24:57.644 debug1: Local version string SSH-2.0-OpenSSH_for_Windows_8.6
+14288 2023-04-26 17:24:57.644 debug1: Remote protocol version 2.0, remote software version libssh_0.9.6
+14288 2023-04-26 17:24:57.644 debug1: compat_banner: no match: libssh_0.9.6
+14288 2023-04-26 17:24:57.644 debug2: fd 4 setting O_NONBLOCK
+14288 2023-04-26 17:24:57.661 debug3: spawning "C:\\Windows\\System32\\OpenSSH\\sshd.exe" -y as user
+14288 2023-04-26 17:24:57.661 debug2: Network child is on pid 1852
+14288 2023-04-26 17:24:57.661 debug3: send_rexec_state: entering fd = 6 config len 664
+14288 2023-04-26 17:24:57.661 debug3: ssh_msg_send: type 0
+14288 2023-04-26 17:24:57.661 debug3: send_rexec_state: done
+14288 2023-04-26 17:24:57.661 debug3: ssh_msg_send: type 0
+14288 2023-04-26 17:24:57.661 debug3: ssh_msg_send: type 0
+14288 2023-04-26 17:24:57.661 debug3: preauth child monitor started
+14288 2023-04-26 17:24:57.675 debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: send packet: type 20 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: SSH2_MSG_KEXINIT sent [preauth]
+14288 2023-04-26 17:24:57.675 debug3: receive packet: type 20 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: SSH2_MSG_KEXINIT received [preauth]
+14288 2023-04-26 17:24:57.675 debug2: local server KEXINIT proposal [preauth]
+14288 2023-04-26 17:24:57.675 debug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: host key algorithms: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+14288 2023-04-26 17:24:57.675 debug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+14288 2023-04-26 17:24:57.675 debug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: compression ctos: none,zlib@openssh.com [preauth]
+14288 2023-04-26 17:24:57.675 debug2: compression stoc: none,zlib@openssh.com [preauth]
+14288 2023-04-26 17:24:57.675 debug2: languages ctos:  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: languages stoc:  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: first_kex_follows 0  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: reserved 0  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: peer client KEXINIT proposal [preauth]
+14288 2023-04-26 17:24:57.675 debug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,ext-info-c [preauth]
+14288 2023-04-26 17:24:57.675 debug2: host key algorithms: ssh-ed25519,ecdsa-sha2-nistp521,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256,ssh-rsa,ssh-dss [preauth]
+14288 2023-04-26 17:24:57.675 debug2: ciphers ctos: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc [preauth]
+14288 2023-04-26 17:24:57.675 debug2: ciphers stoc: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc [preauth]
+14288 2023-04-26 17:24:57.675 debug2: MACs ctos: hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: MACs stoc: hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: compression ctos: zlib@openssh.com,zlib [preauth]
+14288 2023-04-26 17:24:57.675 debug2: compression stoc: zlib@openssh.com,zlib [preauth]
+14288 2023-04-26 17:24:57.675 debug2: languages ctos:  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: languages stoc:  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: first_kex_follows 0  [preauth]
+14288 2023-04-26 17:24:57.675 debug2: reserved 0  [preauth]
+14288 2023-04-26 17:24:57.675 debug1: kex: algorithm: curve25519-sha256 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: kex: host key algorithm: ssh-ed25519 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: kex: client->server cipher: aes256-gcm@openssh.com MAC: <implicit> compression: zlib@openssh.com [preauth]
+14288 2023-04-26 17:24:57.675 debug1: kex: server->client cipher: aes256-gcm@openssh.com MAC: <implicit> compression: zlib@openssh.com [preauth]
+14288 2023-04-26 17:24:57.675 debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+14288 2023-04-26 17:24:57.675 debug3: receive packet: type 30 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: SSH2_MSG_KEX_ECDH_INIT received [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_sshkey_sign: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 6 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_sshkey_sign: waiting for MONITOR_ANS_SIGN [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive_expect: entering, type 7 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering
+14288 2023-04-26 17:24:57.675 debug3: monitor_read: checking request 6
+14288 2023-04-26 17:24:57.675 debug3: mm_answer_sign: entering
+14288 2023-04-26 17:24:57.675 debug3: mm_answer_sign: KEX signature 00000246922A19C0(83)
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 7
+14288 2023-04-26 17:24:57.675 debug2: monitor_read: 6 used once, disabling now
+14288 2023-04-26 17:24:57.675 debug3: send packet: type 31 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: send packet: type 21 [preauth]
+14288 2023-04-26 17:24:57.675 debug2: set_newkeys: mode 1 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: rekey out after 4294967296 blocks [preauth]
+14288 2023-04-26 17:24:57.675 debug1: SSH2_MSG_NEWKEYS sent [preauth]
+14288 2023-04-26 17:24:57.675 debug1: Sending SSH2_MSG_EXT_INFO [preauth]
+14288 2023-04-26 17:24:57.675 debug3: send packet: type 7 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+14288 2023-04-26 17:24:57.675 debug3: receive packet: type 21 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: SSH2_MSG_NEWKEYS received [preauth]
+14288 2023-04-26 17:24:57.675 debug2: set_newkeys: mode 0 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: rekey in after 4294967296 blocks [preauth]
+14288 2023-04-26 17:24:57.675 debug1: KEX done [preauth]
+14288 2023-04-26 17:24:57.675 debug3: receive packet: type 5 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: send packet: type 6 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: receive packet: type 50 [preauth]
+14288 2023-04-26 17:24:57.675 debug1: userauth-request for user ooita service ssh-connection method none [preauth]
+14288 2023-04-26 17:24:57.675 debug1: attempt 0 failures 0 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_getpwnamallow: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 8 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_getpwnamallow: waiting for MONITOR_ANS_PWNAM [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive_expect: entering, type 9 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering
+14288 2023-04-26 17:24:57.675 debug3: monitor_read: checking request 8
+14288 2023-04-26 17:24:57.675 debug3: mm_answer_pwnamallow: entering
+14288 2023-04-26 17:24:57.675 debug2: parse_server_config_depth: config reprocess config len 664
+14288 2023-04-26 17:24:57.675 debug3: checking match for 'Group administrators' user ooita host 127.0.0.1 addr 127.0.0.1 laddr 127.0.0.1 lport 22
+14288 2023-04-26 17:24:57.675 debug3: LsaLogonUser Succeeded (Impersonation: 0)
+14288 2023-04-26 17:24:57.675 debug1: user ooita matched group list administrators at line 90
+14288 2023-04-26 17:24:57.675 debug3: match found
+14288 2023-04-26 17:24:57.675 debug3: reprocess config:91 setting AuthorizedKeysFile .ssh/administrators_authorized_keys
+14288 2023-04-26 17:24:57.675 debug3: mm_answer_pwnamallow: sending MONITOR_ANS_PWNAM: 1
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 9
+14288 2023-04-26 17:24:57.675 debug2: monitor_read: 8 used once, disabling now
+14288 2023-04-26 17:24:57.675 debug2: input_userauth_request: setting up authctxt for ooita [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_inform_authserv: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 4 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_auth2_read_banner: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 10 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive_expect: entering, type 11 [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering [preauth]
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering
+14288 2023-04-26 17:24:57.675 debug3: monitor_read: checking request 4
+14288 2023-04-26 17:24:57.675 debug3: mm_answer_authserv: service=ssh-connection, style=
+14288 2023-04-26 17:24:57.675 debug2: monitor_read: 4 used once, disabling now
+14288 2023-04-26 17:24:57.675 debug3: mm_request_receive: entering
+14288 2023-04-26 17:24:57.675 debug3: monitor_read: checking request 10
+14288 2023-04-26 17:24:57.675 debug3: mm_request_send: entering, type 11
+14288 2023-04-26 17:24:57.675 debug2: monitor_read: 10 used once, disabling now
+14288 2023-04-26 17:24:57.691 debug3: send packet: type 53 [preauth]
+14288 2023-04-26 17:24:57.691 debug1: userauth_send_banner: sent [preauth]
+14288 2023-04-26 17:24:57.691 debug2: input_userauth_request: try method none [preauth]
+14288 2023-04-26 17:24:57.691 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+14288 2023-04-26 17:24:57.691 debug3: ensure_minimum_time_since: elapsed 15.671ms, delaying 1.368ms (requested 8.520ms) [preauth]
+14288 2023-04-26 17:24:57.707 debug3: userauth_finish: failure partial=0 next methods="publickey,keyboard-interactive" [preauth]
+14288 2023-04-26 17:24:57.707 debug3: send packet: type 51 [preauth]
+14288 2023-04-26 17:26:57.647 fatal: Timeout before authentication for 127.0.0.1 port 63750
